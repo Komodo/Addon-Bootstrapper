@@ -10,4 +10,8 @@
         console.log('%AddonId% has been un-loaded');
     };
     
+    this.install = function() {};
+    
+    this.uninstall = function() {};
+    
 }).apply(module.exports);
