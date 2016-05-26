@@ -1,0 +1,13 @@
+{
+    "id": "MyAlphaNumericId",
+    
+    "name": "My Addon",
+    "description": "",
+    "author": "John Doe",
+    "version": "1.0",
+    "homepage": "http://",
+    
+    "minVersion": "10.0",
+    "maxVersion": "10.*",
+    "platform": "any"
+}

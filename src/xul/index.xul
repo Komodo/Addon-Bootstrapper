@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<!DOCTYPE window PUBLIC "-//MOZILLA//DTD XUL V1.0//EN" "http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul" [
+  <!ENTITY % addonDTD SYSTEM "chrome://%AddonId%/locale/%AddonId%.dtd">
+  %addonDTD;
+]>
+
+<?xml-stylesheet href="less://komodo/skin/global/global.less" type="text/css"?>
+<?xml-stylesheet href="less://%AddonId%/skin/less/style.less" type="text/css"?>
+ 
+ 
+<window xmlns="http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul"
+        class="dialog"
+        width="500" height="500">
+
+    <script src="chrome://komodo/content/library/logging.js" type="application/x-javascript;version=1.7"/>
+
+    <hbox align="center" pack="center" flex="1">
+        <description value="&helloWorld;"/>
+    </hbox>
+ 
+</window>
