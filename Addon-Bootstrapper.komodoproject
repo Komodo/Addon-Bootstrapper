@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!-- Komodo Project File - DO NOT EDIT -->
-<project id="3ce173ae-4e25-4ed2-bb6c-f468933a72c2" kpf_version="5" name="Addon-Project.komodoproject">
+<project id="3ce173ae-4e25-4ed2-bb6c-f468933a72c2" kpf_version="5" name="Addon-Bootstrapper.komodoproject">
 <preference-set idref="3ce173ae-4e25-4ed2-bb6c-f468933a72c2" id="project" preftype="project">
   <string relative="path" id="import_dirname"></string>
   <string id="import_exclude_matches">*.*~;*.bak;*.tmp;CVS;.#*;*.pyo;*.pyc;.svn;.git;.hg;.bzr;*%25*;tmp*.html;.DS_Store;*.swp;*.kpf;*.komodoproject;.komodotools;__pycache__;package.json;node_modules;stage</string>
