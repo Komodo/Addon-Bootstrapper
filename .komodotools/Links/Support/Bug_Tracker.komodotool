@@ -1,0 +1,9 @@
+{
+  "keyboard_shortcut": "", 
+  "version": "1.0.12", 
+  "type": "URL", 
+  "name": "Bug Tracker", 
+  "value": [
+    "https://github.com/Komodo/KomodoEdit/issues"
+  ]
+}

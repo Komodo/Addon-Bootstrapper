@@ -1,0 +1,9 @@
+{
+  "keyboard_shortcut": "", 
+  "version": "1.0.12", 
+  "type": "URL", 
+  "name": "SDK - Legacy Reference", 
+  "value": [
+    "http://docs.komodoide.com/SDK/api/legacy"
+  ]
+}

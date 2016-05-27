@@ -1,0 +1,18 @@
+{
+  "keyboard_shortcut": "", 
+  "name": "Package Addon", 
+  "language": "JavaScript", 
+  "trigger": "trigger_postopen", 
+  "trigger_enabled": false, 
+  "value": [
+    "var placesPath = ko.uriparse.URIToLocalPath(ko.places.getDirectory());", 
+    "var gulp = ko.prefs.getString('gulpDefaultInterpreter', 'gulp') || 'gulp';", 
+    "var cmd = [gulp, \"package\"].join(\" \");", 
+    "ko.run.command(cmd, {cwd: placesPath});"
+  ], 
+  "version": "1.0.12", 
+  "rank": 100, 
+  "async": false, 
+  "type": "macro", 
+  "icon": "koicon://ko-svg/chrome/fontawesome/skin/cube.svg"
+}

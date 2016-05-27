@@ -1,0 +1,13 @@
+{
+  "keyboard_shortcut": "", 
+  "name": "notify.send", 
+  "value": [
+    "require(\"notify\").send(\"[[%tabstop:Hello World]]\", { priority: \"[[%tabstop:notification|info|warning|error]]\", category: \"[[%tabstop:%AddonId%]]\" });!@#_currentPos!@#_anchor"
+  ], 
+  "set_selection": "false", 
+  "version": "1.0.12", 
+  "treat_as_ejs": "false", 
+  "type": "snippet", 
+  "indent_relative": "true", 
+  "auto_abbreviation": "false"
+}

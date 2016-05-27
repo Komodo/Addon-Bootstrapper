@@ -1,0 +1,10 @@
+{
+  "keyboard_shortcut": "", 
+  "name": "SDK - Reference", 
+  "url": "http://docs.komodoide.com/SDK/api/commonjs", 
+  "value": [
+    "http://docs.komodoide.com/SDK/api/commonjs"
+  ], 
+  "version": "1.0.12", 
+  "type": "URL"
+}

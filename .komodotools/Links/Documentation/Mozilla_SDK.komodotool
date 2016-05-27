@@ -1,0 +1,9 @@
+{
+  "keyboard_shortcut": "", 
+  "version": "1.0.12", 
+  "type": "URL", 
+  "name": "Mozilla SDK", 
+  "value": [
+    "https://developer.mozilla.org/en-US/Add-ons/SDK/Low-Level_APIs"
+  ]
+}
