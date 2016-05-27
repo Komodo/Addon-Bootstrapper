@@ -12,7 +12,7 @@
     "var input = ko.interpolate.interpolateString(", 
     "    \"%(ask:label),%(ask:classname)\",", 
     "    false,", 
-    "    \"label: default blank\"", 
+    "    \"label and classname: default blank\"", 
     ");", 
     "var inputs = input.split(\",\");", 
     "var label = inputs[0];", 
@@ -42,7 +42,7 @@
     "{", 
     "    attributes:", 
     "    {", 
-    "        \"class\": \"<%= classname %>\",", 
+    "        \"class\": \"<%= classname || \"[[%tabstop:classname]]\" %>\",", 
     "        command: \"[[%tabstop:function]]\"", 
     "    }", 
     "});", 
@@ -52,8 +52,8 @@
   ], 
   "set_selection": "false", 
   "version": "1.0.12", 
-  "treat_as_ejs": "true", 
-  "type": "snippet", 
   "indent_relative": "true", 
+  "type": "snippet", 
+  "treat_as_ejs": "true", 
   "auto_abbreviation": "false"
 }
