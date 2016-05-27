@@ -1,0 +1,21 @@
+{
+  "keyboard_shortcut": "", 
+  "name": "ko/ui/panel.create", 
+  "value": [
+    "var [[%tabstop:panelName]] = require(\"ko/ui/panel\").create(null,", 
+    "    {", 
+    "        attributes:", 
+    "        {", 
+    "            width: [[%tabstop:/*100, \"100px\"*/]],", 
+    "            height: [[%tabstop:/*100, \"100px\"*/]]", 
+    "        }", 
+    "    }", 
+    ");!@#_currentPos!@#_anchor"
+  ], 
+  "set_selection": "false", 
+  "version": "1.0.12", 
+  "indent_relative": "false", 
+  "type": "snippet", 
+  "treat_as_ejs": "true", 
+  "auto_abbreviation": "false"
+}
