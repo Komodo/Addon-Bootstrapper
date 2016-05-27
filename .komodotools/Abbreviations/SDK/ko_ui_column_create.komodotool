@@ -1,0 +1,22 @@
+{
+  "keyboard_shortcut": "", 
+  "name": "ko/ui/column.create", 
+  "value": [
+    "var [[%tabstop:myCol]] = require(\"ko/ui/column\").create(null,", 
+    "    {", 
+    "        attributes:", 
+    "        {", 
+    "            width: [[%tabstop:/*100, \"100px\"*/]],", 
+    "            height: [[%tabstop:/*100, \"100px\"*/]],", 
+    "            style: //\"background-color: red;\"", 
+    "        }", 
+    "    }", 
+    ");!@#_currentPos!@#_anchor"
+  ], 
+  "set_selection": "false", 
+  "version": "1.0.12", 
+  "indent_relative": "false", 
+  "type": "snippet", 
+  "treat_as_ejs": "true", 
+  "auto_abbreviation": "true"
+}
