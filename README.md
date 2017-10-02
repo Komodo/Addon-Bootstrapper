@@ -1,6 +1,3 @@
-This is a work in progress, don't use this unless you like to experiment with
-stuff that's not complete.
-
 Requirements:
 
  * Node.js version 6 or later
